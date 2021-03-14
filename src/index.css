@@ -53,3 +53,29 @@ textarea:disabled {
 button:disabled {
   cursor: not-allowed;
 }
+
+.pop_up {
+  position: absolute;
+  background-color: #a5a2a2;
+  top: 20%;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 15%;
+  max-width: 400px;
+  max-height: 200px;
+  border: 1px solid #00b800;
+}
+
+.pop_up>input {
+  width: 80px;
+  margin: 5px 0;
+}
+
+.err_msg {
+  color: red;
+  font-size: 15px;
+  margin: 5px 0;
+  padding: 4px;
+}
