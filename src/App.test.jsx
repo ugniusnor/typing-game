@@ -1,6 +1,6 @@
 import React from "react";
 import App from "./App";
-import { render, fireEvent, getByLabelText } from "@testing-library/react";
+import { render, fireEvent, getByLabelText, act } from "@testing-library/react";
 
 test("renders the app component", () => {
   const { getByText, getByTestId } = render(<App />);

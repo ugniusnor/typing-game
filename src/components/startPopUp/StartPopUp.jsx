@@ -7,7 +7,7 @@ export default function StartPopUp({
   initPlayTime,
 }) {
   const checkInput = (input) => {
-    const re = /^[0-9]*$/;
+    const re = /^[1-9][0-9]*$/;
     if (re.test(input) && parseInt(input) < 60 && input.length > 0) {
       return true;
     } else {
